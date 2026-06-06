@@ -1,1 +1,1 @@
-# fastapi-react-template
+# FastAPI Backend & React Frontend
