@@ -1,0 +1,5 @@
+{
+  "name": "fastapi-react-template",
+  "private": true,
+  "packageManager": "pnpm@12.16.1"
+}

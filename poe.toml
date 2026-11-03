@@ -13,13 +13,13 @@ sequence = [
 [tool.poe.tasks.dev-run-frontend]
 help = "Start the frontend dev server"
 sequence = [
-    { cmd = "npm --prefix frontend run dev"}
+    { cmd = "pnpm --filter frontend run dev"}
 ]
 
 [tool.poe.tasks.frontend-build]
 help = "Builds the frontend in prod mode"
-cmd = "npm --prefix frontend run build"
+cmd = "pnpm --filter frontend run build"
 
 [tool.poe.tasks.frontend-prettier]
 help = "Run prettier on the frontend project"
-cmd = "npm --prefix frontend run format"
+cmd = "pnpm --filter frontend run format"

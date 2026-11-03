@@ -1,0 +1,15 @@
+# Prettier also respects the root .gitignore.
+**/dist/
+**/dist-*/
+**/.cache/
+**/.ruff_cache/
+**/.next/
+**/.nuxt/
+**/.output/
+**/.turbo/
+
+# Generated dependency lockfiles.
+**/pnpm-lock.yaml
+**/package-lock.json
+**/yarn.lock
+**/apm.lock.yaml
